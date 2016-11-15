@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content" />
 
             <EditText
-                android:id="@+id/Name"
+                android:id="@+id/etName"
                 android:layout_width="match_parent"
                 android:layout_marginBottom="10dp"
                 android:layout_height="wrap_content" />
@@ -62,17 +62,6 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:text="Car Brand"
-                android:layout_height="wrap_content" />
-
-            <EditText
-                android:id="@+id/etCarBrand"
-                android:layout_width="match_parent"
-                android:layout_marginBottom="10dp"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:layout_width="wrap_content"
                 android:text="Car Model"
                 android:layout_height="wrap_content" />
 
@@ -82,9 +71,22 @@
                 android:layout_marginBottom="10dp"
                 android:layout_height="wrap_content" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Car Number"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etCarNumber"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content" />
+
+
+
             <Button
-                android:id="@+id/bLogout"
-                android:text="Logout"
+                android:id="@+id/bRegister"
+                android:text="Register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
