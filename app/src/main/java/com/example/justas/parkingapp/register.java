@@ -9,7 +9,7 @@ import android.widget.EditText;
 public class register extends AppCompatActivity implements View.OnClickListener{
 
     Button bRegister;
-    EditText etName, etUsername, etCarModel, etCarBrand, etBankAcc, etFamilyName, etPassword;
+    EditText etName, etUsername, etCarModel, etCarNumber, etBankAcc, etFamilyName, etPassword;
 
 
     @Override
@@ -20,7 +20,7 @@ public class register extends AppCompatActivity implements View.OnClickListener{
         etName = (EditText) findViewById(R.id.etName);
         etUsername = (EditText) findViewById(R.id.etUsername);
         etCarModel = (EditText) findViewById(R.id.etCarModel);
-        etCarBrand = (EditText) findViewById(R.id.etCarBrand);
+        etCarNumber = (EditText) findViewById(R.id.etCarBrand);
         etBankAcc = (EditText) findViewById(R.id.etBankAcc);
         etFamilyName = (EditText) findViewById(R.id.etFamilyName);
         etPassword = (EditText) findViewById(R.id.etPassword);
