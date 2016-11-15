@@ -40,9 +40,33 @@ public class UserLocalStore {
         int bankAcc = userLocalDatabase.getInt("bankAcc", -1);
 
         User storedUser = new User(name, familyName, username, password, bankAcc, carModel, carNumber);
+
         return storedUser;
 
     }
 
+    public void setUserLoggedIn(boolean loggedIn){
+        SharedPreferences.Editor spEditor = userLocalDatabase.edit();
+        spEditor.putBoolean("loggedIn", loggedIn);
+        spEditor.commit();
+    }
+
+
+    public boolean getUserLoggedIn(){
+        if(userLocalDatabase.getBoolean("loggedIn", false) == true){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+
+    public void clearUserData(){
+
+        SharedPreferences.Editor spEditor = userLocalDatabase.edit();
+        spEditor.clear();
+        spEditor.commit();
+
+    }
 
 }

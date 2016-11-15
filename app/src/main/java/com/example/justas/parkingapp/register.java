@@ -34,6 +34,16 @@ public class register extends AppCompatActivity implements View.OnClickListener{
         switch (v.getId()){
             case R.id.bRegister:
 
+                String name = etName.getText().toString();
+                String familyName = etFamilyName.getText().toString();
+                String username = etUsername.getText().toString();
+                String carModel = etCarModel.getText().toString();
+                String carNumber = etCarNumber.getText().toString();
+                int bankAcc = Integer.parseInt(etBankAcc.getText().toString());
+                String password = etPassword.getText().toString();
+
+                User registeredData = new User (name, username, carModel, carNumber, bankAcc, familyName, password);
+
                 break;
         }
     }
