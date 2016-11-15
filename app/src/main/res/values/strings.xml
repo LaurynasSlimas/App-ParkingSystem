@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">parkingapp</string>
+    <string name="app_name">Register</string>
+    <string name="action_settings">Settings</string>
 </resources>
