@@ -85,8 +85,8 @@
 
 
             <Button
-                android:id="@+id/bRegister"
-                android:text="Register"
+                android:id="@+id/bLogout"
+                android:text="Logout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

@@ -17,7 +17,21 @@ public class User {
         this.bankAcc=bankAcc;
         this.carNumber=carNumber;
         this.carModel=carModel;
-        this.bankAcc=bankAcc;
+
 
     }
+
+    public User(String username, String password ) {
+
+        this.name="";
+        this.familyName="";
+        this.username=username;
+        this.password=password;
+        this.bankAcc=-1;
+        this.carNumber="";
+        this.carModel="";
+
+
+    }
+
 }
