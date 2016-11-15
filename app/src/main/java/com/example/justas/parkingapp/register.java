@@ -20,7 +20,7 @@ public class register extends AppCompatActivity implements View.OnClickListener{
         etName = (EditText) findViewById(R.id.etName);
         etUsername = (EditText) findViewById(R.id.etUsername);
         etCarModel = (EditText) findViewById(R.id.etCarModel);
-        etCarNumber = (EditText) findViewById(R.id.etCarBrand);
+        etCarNumber = (EditText) findViewById(R.id.etCarNumber);
         etBankAcc = (EditText) findViewById(R.id.etBankAcc);
         etFamilyName = (EditText) findViewById(R.id.etFamilyName);
         etPassword = (EditText) findViewById(R.id.etPassword);
